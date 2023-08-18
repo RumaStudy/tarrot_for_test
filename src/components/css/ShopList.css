@@ -1,0 +1,34 @@
+.ShopList {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ListAside {
+  flex: 0.3;
+}
+.ListAside ul > li {
+  display: inline-block;
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid crimson;
+  border-radius: 0.7rem;
+  margin: 1rem auto;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 550ms;
+}
+.ListAside ul > li:hover {
+  color: white;
+  background-color: crimson;
+}
+.ShopWrap {
+  flex: 1.7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+li.active {
+  background-color: crimson;
+  color: white;
+}

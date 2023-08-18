@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.ItemCard {
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 3px gray;
+  padding: 2rem;
+  cursor: pointer;
+}
+.ItemCard > img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}

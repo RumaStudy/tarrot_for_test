@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#login {
+  width: 100%;
+  height: 55vh;
+}
+.emailWrap {
+  width: 40%;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.emailWrap > input {
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  transition: 550ms;
+}
+.emailWrap > input:focus {
+  border-bottom: 1px solid crimson;
+}
+.emailWrap > label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.emailWrap > button {
+  width: fit-content;
+  padding: 1rem;
+  border: 1px solid crimson;
+  border-radius: 15px;
+  color: white;
+  background-color: crimson;
+  transition: 550ms;
+}
+.emailWrap > button:hover {
+  background-color: white;
+  color: crimson;
+}

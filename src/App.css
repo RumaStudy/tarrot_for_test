@@ -1,0 +1,25 @@
+.gnb {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.gnb > .inner > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.gnb > .inner > ul > li > a {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+a:hover {
+  color: royalblue;
+}
+.inner {
+  width: 1350px;
+  margin: auto;
+}
+header {
+  margin-top: 3rem;
+}
